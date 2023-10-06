@@ -8,8 +8,7 @@ function Web(props){
         <div className="container">
             <div className="navbar">
                 <div className="logo">
-                    {/* <img src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" width="150px" height="150px"/> */}
-                    <h1 >FlipKart</h1>
+                    <h1 className='h'>FlipKart</h1>
                       
                 </div>
                 <nav>
@@ -24,14 +23,14 @@ function Web(props){
             </div>
         </div>
     
-        <div className="row1">
+        <div className="row">
             <div className="col-2">
                 <h1>Give your Workout <br/>A new Style</h1>
                 <p >This is Best</p>
                 <NavLink className="btn">Explore Now</NavLink>
             </div>
             <div className="col-2">
-            {/* <img src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" width="150px" height="150px"/> */}
+            <img src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" width="500px" height="450px" className='v'/>
             </div>
         </div>
     </div>
@@ -178,7 +177,7 @@ function Web(props){
                 <div className="col-3">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit temporibus cum illo dolorem! A facilis mollitia maxime molestiae? Fugit itaque natus blanditiis dolor quibusdam excepturi minima impedit consectetur adipisci.</p>
                     <img src="https://images.pexels.com/photos/12879014/pexels-photo-12879014.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""/>
-                    <h3>vaiji</h3>
+                    <h3>Vaiji</h3>
                 </div>
 
                 <div className="col-3">
@@ -186,7 +185,7 @@ function Web(props){
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit temporibus cum illo dolorem! A facilis mollitia maxime molestiae? Fugit itaque natus blanditiis dolor quibusdam excepturi minima impedit consectetur adipisci.</p>
     
                     <img src="https://images.pexels.com/photos/16948299/pexels-photo-16948299/free-photo-of-close-up-of-pink-flowers.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""/>
-                    <h3>vaiji</h3>
+                    <h3>Pavan</h3>
                 </div>
 
                 <div className="col-3">
@@ -194,7 +193,7 @@ function Web(props){
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit temporibus cum illo dolorem! A facilis mollitia maxime molestiae? Fugit itaque natus blanditiis dolor quibusdam excepturi minima impedit consectetur adipisci.</p>
                    
                     <img src="https://images.pexels.com/photos/1761279/pexels-photo-1761279.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""/>
-                    <h3>vaiji</h3>
+                    <h3>Tejas</h3>
                 </div>
             </div>
         </div>
